@@ -23,6 +23,14 @@ body {
     font-weight: bold;
 }
 
+.btn {
+    height: 35px;
+    background-color: #e8491d;
+    border: 0px;
+    padding: 0 20px;
+    color: #fff;
+}
+
 /*HEADER*/
 
 header {
@@ -83,4 +91,26 @@ header a:hover {
 
 #showcase p {
     font-size: 20px;
+}
+
+/*NEWSLETTER*/
+
+#newsletter {
+    padding: 20px;
+    color: #ffffff;
+    background-color: #35424a;
+}
+
+#newsletter h1 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
 }
